@@ -235,7 +235,7 @@ class AltoRouter {
 				'h'  => '[0-9A-Fa-f]++',
 				'*'  => '.+?',
 				'**' => '.++',
-				''   => '[^/]++'
+				''   => '[^/\.]++'
 			);
 
 			foreach ($matches as $match) {
